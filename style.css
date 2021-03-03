@@ -1,33 +1,34 @@
 html, body{
     margin: 0;
     padding: 0;
-    width: 1440px;
-    height: 1000px;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     
 }
 main{
     background-color: hsl(185, 75%, 39%);
-    padding: 100px;
+    padding-top: 150px;
+    height: 100%;
     
 }
-.background{
+/* .background{
     position: absolute;
     z-index: 0;
-}
+} */
 .top{
-    position: relative;
+    position: absolute;
     z-index: 0;
     top:-300px;
-    left: -100px;
+    right:  53%;
     width:700px
 }
 .bottom{
-    position: relative;
+    position: absolute;
     z-index: 0;
-    width: 700px;
-    bottom: 300px;
-    left: 700px;
+    top: 350px;
+    bottom: -400px;
+    left: 53%;
 }
 .profile-card{
     position: relative;
@@ -70,6 +71,7 @@ p{
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    margin-top: 100px;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
@@ -90,7 +92,7 @@ main{
     background-color: hsl(185, 75%, 39%);
     padding-top: 300px;   
 }
-.top{
+/* .top{
     position: relative;
     z-index: 0;
     top:-300px;
@@ -103,12 +105,12 @@ main{
     width: 1000px;
     bottom:300px;
     left:200px;
-}
+} */
 
-.profile-card{
+/* .profile-card{
     position: relative;
     height: 500px;
-    width: 350px;
-}
+    width: 350px; */
+/* } */
 
 }
